@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style/styles.css">
 </head>
 <body class="bgi">
-    <section class=" bg container banner-nav-section">
+ 
+    <section class=" container banner-nav-section">
         <div class="tittle">
                 <h3><span class="span">Fitness</span></h3>
             </div>
@@ -18,11 +19,14 @@
                 <button class="nav">Contact</button>
                 <button class="nav">About</button>
             </div>
-           
-        </div>
+      
+      
     </section> 
+  
 
-        <section class="container banner-section bg">
+
+       <div class="bg">
+        <section class="container banner-section ">
             <div class="banner-content">
                 <h1>Get body in<br><span class="shape">shape</span> & stay<br> healthy </h1>
                 <p>A huge selection of health and fitness content, healthy recipes<br> and transformation stories to help you get fit and stay fit!</p>
@@ -43,6 +47,7 @@
             </div>
                       
         </section>
+    </div>
         
         <section class="container change-habit">
             <div class="habit-t">
@@ -104,15 +109,127 @@
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
                     <button class="btn-1">Join Now</button>
                 </div>
-                <img src="images/run.jpg" alt="">
+                <div>
+                    <img src="images/run.jpg" alt="">
+                </div>   
             </section> 
-            
+            <!-- BMI text -->
+            <div class=" container bmi-content">
+                <div class="bim-container">
+                    <h1>BMI Calculator</h1>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+        </div>
 
-
-            <footer>
-              
-            </footer>
-
+           
+<!-- BMI Calculator Chart -->'
+<section class="bim-calculator">
     
+    <div class="container bim-calculator-content">
+        <div class="bim-calculator-container">
+            <h3>BMI Calculator Chart</h3>
+            <table>
+                <tr class="table-heading">
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                </tr>
+                <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Healthy</td>
+                </tr>
+                <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+                <tr>
+                    <td>30.0 - and Above</td>
+                    <td>Obese</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="bim-calculate-container">
+            <h3>Calculate your BMI</h3>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+            <input type="text" class="inp-1" id="" placeholder="Height/cm">
+            <input type="text" class="inp-1" id="" placeholder="Weight/kg">
+            <br>
+            <input type="text" class="inp-1" id="" placeholder="Age">
+            <select name="" class="inp-1" id="">
+                <option value="">Sex</option>
+            </select>
+            <br>
+            <select name="" class="inp-2" id="">
+                <option value="">Select an activity factor</option>
+            </select>
+            <button class="btn-1">
+                Calculate
+            </button>
+        </div>
+    
+</section>
+   <!-- team section starts -->
+   <section class="our-team-member">
+    <div class="meet-team-content">
+        <div class="meet-team-container">
+            <h1>Meet Our Team</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+
+        <div class="team-image-container">
+            <div class="team-member-image">
+                <img src="./images/trainer1.png" alt="">
+                <img src="./images/trainer2.png" alt="">
+                <img src="./images/trainer3.png" alt="">
+                <img src="./images/trainer4.png" alt="">
+                <img src="./images/trainer5.png" alt="">
+                <img src="./images/trainer6.png" alt="">
+                                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- team section ends -->
+
+
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h3 class="footer-logo-text">Fitness</h3>
+        <p class="section-description">
+          Fitness is more than just a routine; it's a holistic approach to
+          enhancing your overall well-being. It encompasses a balanced blend
+          of exercise, nutrition, and mental health, and aims to a positive
+          mindset.
+        </p>
+      </div>
+      <div class="get-started-1">
+        <h3 class="get-started-title">Get Started</h3>
+        <ul>
+          <li>Service</li>
+          <li>Contact Us</li>
+          <li>Affiliate Program</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+      <div class="get-started-2">
+        <h3 class="get-started-title">Get Started</h3>
+        <ul>
+          <li>Fitness</li>
+          <li>Platform</li>
+          <li>Workout Libary</li>
+          <li>App Design</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="footer-text">All right reserved @Fitness 2024</p>
+  </footer>
+            
 </body>
 </html>
