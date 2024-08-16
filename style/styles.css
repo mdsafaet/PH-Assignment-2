@@ -27,7 +27,14 @@
     margin: 5rem auto;
     border-radius:1rem ;
 }
-    /* Nav & banner styles */
+  
+  
+
+
+
+
+
+    
 .tittle{
     font-size: 36px;
    font-weight: 800;
@@ -35,7 +42,11 @@
 .banner-nav-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+
+    
+
+    
+    
 }
 
 .home{
@@ -58,6 +69,11 @@
     border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
 }
+.ham-burger{
+    color: aliceblue;
+    display: none;
+}
+ 
 .shape{
     
     font-family: "Great Vibes", cursive;
@@ -528,6 +544,250 @@ footer {
      font-size: 14px;
      font-weight: 400;
   }
+
+
+  /*responsive*/
+
+  @media screen and (max-width: 576px) {
+
+    .nav-option{
+        display: none;
+    }
+    .ham-burger{
+        display: block;
+    }
+    .ham-burger i{
+        font-size: 26px;
+    }
+    .btn-2{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px;
+    }   
+    h3{
+        font-size: 26px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .banner-section{
+        flex-direction: column;
+
+    }
+    .banner-content h1{
+        width: 295px;
+        font-size: 30px;
+       
+
+    }
+  
+    .workout-video{
+        width: 40%;
+        top: 10%;
+        left: 45%;
+        padding: 5px 2px;
+    }
+    .video-tutorial{
+        width: 35%;
+        top: 50%;
+        right: 60%;
+        text-align: center;
+        padding: 5px 9px;
+    }
+ 
+    .habit-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .habit {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+
+    .habit img {
+        width: 85%; 
+       
+        margin-bottom: 10px;
+    }
+
+    .habit-t h1 {
+        font-size: 32px; 
+    }
+
+    .habit-t p {
+        font-size: 12px; 
+    }
+
+    .habit h3 {
+        font-size: 16px; 
+    }
+
+    .habit p {
+        font-size: 12px; 
+    }
+  
+    .run-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        margin-top: 50px; 
+    }
+
+    .run-text-content h2 {
+        font-size: 2rem; 
+        text-align: center;
+    }
+
+    .run-text-content p {
+        font-size: 12px; 
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .run-text-content button {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px; 
+    }
+
+    .run-container img {
+        width: 100%; 
+        height: auto;
+        object-fit: cover; 
+        object-position: center; 
+    }
+
+  
+
+    .bmi-content p {
+        font-size: 12px; 
+       
+    }
+    .bmi-content h1 {
+        font-size: 26px; 
+       
+    }
+   
+    .bmi-content {
+        width: 60%;
+    }
+    .bim-calculator{
+       
+        height: 817px;
+        padding: 19px;
+    }
+    .bim-calculator-content{
+        flex-direction: column;
+    }
+    .bim-calculator-container h3,
+    .bim-calculate-container h3{
+        width: 167px;
+        font-size: 16px;
+    }
+    .bim-calculate-container {
+        width: 500px;
+    }
+    .inp-1{
+        height: auto;
+        width: 160px;
+
+    }
+    .inp-2 {
+        height: auto;
+        width: 320px;
+    }
+    .btn-1{
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px;
+    }
+   
+    
+
+    /* Team Section */
+    .meet-team-content {
+        width: 100%; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .meet-team-container {
+        width: 100%; 
+        padding-top: 40px; 
+    }
+
+   .meet-team-container h1{
+    font-size: 26px;
+   }
+
+    .meet-team-container p {
+        font-size: 12px; 
+        margin-top: 10px;
+    }
+
+    .team-image-container {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px;
+    }
+
+    .team-member-image {
+        grid-template-columns:  1fr; 
+       
+    }
+
+    .team-member-image img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    /* Footer */
+    .footer-container {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+        padding: 20px; 
+    }
+
+    .footer-logo-text {
+        font-size: 2.5rem; 
+        margin-bottom: 1rem; 
+        
+    }
+
+    .get-started-title {
+        font-size: 24px; 
+        margin-bottom: 1.5rem; 
+        
+    }
+
+    footer ul li {
+        font-size: 18px; 
+        margin-bottom: 0.75rem; 
+        ;
+    }
+
+    .footer-text {
+        font-size: 18px; 
+        padding: 1rem 0; 
+    }
+
+    .section-description {
+        font-size: 12px; 
+       
+    }
+}
+
+  
+    
+
+
+    
+
+  
   
 
 
